@@ -1,7 +1,5 @@
-//Aqui es donde se llaman todas las funciones escritas en mdLinks.js 
-
 #!/usr/bin/env node
-
+            /*Aqui es donde esta else llaman todas las funciones escritas en mdLinks.js */
 const mdLinks = require('./lib/mdlinks'); //este recure esta lleno de los objetos que estan escritos en ese archivo y que le pasa module.exports que esta hasta el final de este codigo
 
   let options = {};
