@@ -1,6 +1,8 @@
+//Aqui es donde se llaman todas las funciones escritas en mdLinks.js 
+
 #!/usr/bin/env node
 
-const mdLinks = require('./lib/mdlinks');
+const mdLinks = require('./lib/mdlinks'); //este recure esta lleno de los objetos que estan escritos en ese archivo y que le pasa module.exports que esta hasta el final de este codigo
 
   let options = {};
   if (process.argv.indexOf('--validate') !== -1) {
